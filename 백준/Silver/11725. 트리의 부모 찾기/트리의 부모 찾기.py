@@ -1,23 +1,22 @@
 from collections import deque
-N=int(input())
-graph=[[]*(N+1) for _ in range(N+1)]
+import sys
+sys.setrecursionlimit(10**6)
+input=sys.stdin.readline
+n=int(input())
 
-parents=[[]*(N+1) for _ in range(N+1)]
-for _ in range(N-1):
-    a, b= map(int, input().split())
+graph=[[] for i in range(n+1)]
+for i in range(1,n):
+    a,b=map(int,input().split())
     graph[a].append(b)
     graph[b].append(a)
 
-def DFS():
-    queue=[1]    
-    while queue:
-        n=queue.pop()
-        for i in graph[n]:
-            queue.append(i)
-            parents[i].append(n)
-            graph[i].remove(n)
-    return parents
+visited=[0]*(n+1)
+def dfs(v):
+    for i in graph[v]:
+        if visited[i]==0:
+            visited[i]=v
+            dfs(i)
 
-ans=DFS()[2:N+1]
-for i in ans:
-    print(i[0],end='\n')
+dfs(1)
+for _ in range(2,n+1):
+    print(visited[_])

@@ -1,33 +1,31 @@
-def change(num):
-    if switch[num] == 0:
-        switch[num] = 1
+n=int(input())
+switch=[-1]+list(map(int,input().split()))
+p=int(input())
+
+def flip(i):
+    if switch[i]==0:
+        switch[i]=1
     else:
-        switch[num] = 0
+        switch[i]=0
     return
 
+for person in range(p):
+    a,b=map(int,input().split())
+    if a==1:#male
+        for k in range(b,n+1,b):
+            flip(k)
 
-N = int(input())
-switch = [-1] + list(map(int, input().split()))
-students = int(input())
-for _ in range(students):
-    sex, num = map(int, input().split())
-    # 남자
-    if sex == 1:
-        for i in range(num, N+1, num):
-            change(i)
-    # 여자
-    else:
-        change(num)
-        for k in range(N//2):
-            if num + k > N or num - k < 1 : break
-            if switch[num + k] == switch[num - k]:
-                change(num + k)
-                change(num - k)
+    else:#female
+        flip(b)
+        for i in range(n//2):
+            if b+i>n or b-i<1:
+                break
+            if switch[b+i]==switch[b-i]:
+                flip(b+i)
+                flip(b-i)
             else:
                 break
-                
-for i in range(1, N+1):
+for i in range(1, n+1):
     print(switch[i], end = " ")
     if i % 20 == 0 :
         print()
-

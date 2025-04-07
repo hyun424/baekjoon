@@ -1,11 +1,11 @@
-import sys
-input=sys.stdin.readline
 n=int(input())
-def fib(i):
-    if i==0:
+def fib(n):
+    if n==0:
         return 0
-    elif i==1:
+    elif n==1:
         return 1
-    return fib(i-1)+fib(i-2) 
 
-print(fib(n))
+    else:
+        return fib(n-2)+fib(n-1)
+
+print (fib(n))

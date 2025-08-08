@@ -1,28 +1,27 @@
 import sys
+input = sys.stdin.readline
 
-n = int(sys.stdin.readline())
-mask = (1 << n) - 1  # 하위 n비트만 사용
+N = int(input().strip())
 
-# row: 현재 행, cols: 사용된 열, diag1: 사용된 ↘ 대각선, diag2: 사용된 ↗ 대각선
+v_col  = [0] * N         # 열 방문
+v_d1   = [0] * (2*N - 1) # ↘ 대각선 (r + c)
+v_d2   = [0] * (2*N - 1) # ↗ 대각선 (r - c + (N-1))
 
-def dfs(row: int, cols: int, diag1: int, diag2: int) -> int:
-    if row == n:
+cnt = 0
+
+def btk(r: int):
+    nonlocal_cnt = 0  # 미세 최적화용 지역 변수 카운트 대신, 외부 cnt에 직접 쓰면 느릴 수 있음
+    if r == N:
         return 1
 
-    count = 0
-    # 가능한 자리: 아직 사용되지 않은 열/대각선
-    available = mask & ~(cols | diag1 | diag2)
+    total = 0
+    for c in range(N):
+        d1 = r + c
+        d2 = r - c + (N - 1)
+        if v_col[c] == 0 and v_d1[d1] == 0 and v_d2[d2] == 0:
+            v_col[c] = v_d1[d1] = v_d2[d2] = 1
+            total += btk(r + 1)
+            v_col[c] = v_d1[d1] = v_d2[d2] = 0
+    return total
 
-    while available:
-        bit = available & -available  # 가장 오른쪽 1비트 선택
-        available -= bit              # 해당 위치 사용 처리
-        count += dfs(
-            row + 1,
-            cols | bit,
-            ((diag1 | bit) << 1) & mask,
-            (diag2 | bit) >> 1,
-        )
-
-    return count
-
-print(dfs(0, 0, 0, 0))
+print(btk(0))

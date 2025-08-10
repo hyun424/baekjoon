@@ -1,9 +1,4 @@
-import sys
-from collections import Counter
-
-input = sys.stdin.readline
-
-T = int(input())
-for _ in range(T):
-    a, b = input().split()
-    print("Possible" if Counter(a) == Counter(b) else "Impossible")
+n=int(input())
+for _ in range(n):
+    s1,s2=input().split()
+    print("Possible" if sorted(s1)==sorted(s2) else "Impossible")

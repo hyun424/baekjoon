@@ -1,27 +1,23 @@
 import sys
-input=sys.stdin.readline
-n=int(input())
-stack=[]
-for _ in range(n):
-    cmd=list(input().split())
-    op=cmd[0]
+input = sys.stdin.readline
 
-    if op=="push":
+n = int(input())
+stack = []
+output = []
+
+for _ in range(n):
+    cmd = input().split()
+
+    if cmd[0] == "push":
         stack.append(cmd[1])
-    elif op=="pop":
-        if not stack:
-            print(-1)
-        else:
-            print(stack.pop())
-    elif op=="size":
-        print(len(stack))
-    elif op=="empty":
-        if stack:
-            print(0)
-        else:
-            print(1)
-    elif op=="top":
-        if stack:
-            print(stack[-1])
-        else:
-            print(-1)
+    elif cmd[0] == "pop":
+        output.append(stack.pop() if stack else "-1")
+    elif cmd[0] == "size":
+        output.append(str(len(stack)))
+    elif cmd[0] == "empty":
+        output.append("0" if stack else "1")
+    elif cmd[0] == "top":
+        output.append(stack[-1] if stack else "-1")
+
+# 한 번에 출력
+sys.stdout.write("\n".join(output))

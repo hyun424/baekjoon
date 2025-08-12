@@ -1,21 +1,15 @@
 import sys
-input=sys.stdin.readline
+input = sys.stdin.readline
 
+n = int(input())
+a = list(map(int, input().split()))
 
-n=int(input())
-numlist=list(map(int,input().split()))
+ans = [-1] * n
+stack = []  # store indices
 
-stack=[]
-ans=[-1]*n
+for i, x in enumerate(a):
+    while stack and a[stack[-1]] < x:
+        ans[stack.pop()] = x
+    stack.append(i)
 
-
-for i,h in enumerate (numlist):
-
-    while stack and stack[-1][1] < h:
-        a,b=stack.pop()
-        ans[a]=h
-
-    stack.append((i,h))
-
-
-print(* ans)
+print(' '.join(map(str, ans)))

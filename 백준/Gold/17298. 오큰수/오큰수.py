@@ -12,4 +12,7 @@ for i, x in enumerate(a):
         ans[stack.pop()] = x
     stack.append(i)
 
+
 print(' '.join(map(str, ans)))
+
+

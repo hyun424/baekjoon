@@ -16,10 +16,13 @@ jobs:
         run: |
           git config --global user.name "hyun424"
           git config --global user.email "amorew_@naver.com"
-          # 아래 줄로 모든 github.com 접근을 토큰으로 강제
+          # https://github.com/* 로 가는 트래픽을 모두 PAT 포함 URL로 대체
           git config --global url."https://x-access-token:${{ secrets.ORG_TOKEN }}@github.com/".insteadOf "https://github.com/"
 
-      - name: Push to org repo
+      - name: Add remote & push
         run: |
           git remote add org https://github.com/CodeStudyBOJ/HYUN.git
+          # 인증 확인(실패 시 빨리 터뜨리기)
+          git ls-remote org HEAD
+          # 현재 커밋을 org의 main에 푸시
           git push org HEAD:main

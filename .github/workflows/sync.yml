@@ -2,21 +2,24 @@ name: Sync to Org Repo
 
 on:
   push:
-    branches:
-      - main  # 동기화할 브랜치
+    branches: [ main ]
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout personal repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Push to org repo
+      - name: Configure git & auth
         run: |
           git config --global user.name "hyun424"
           git config --global user.email "amorew_@naver.com"
-          git remote add org https://x-access-token:${{ secrets.ORG_TOKEN }}@github.com/CodeStudyBOJ/HYUN.git
-          git push --mirror org
+          # 아래 줄로 모든 github.com 접근을 토큰으로 강제
+          git config --global url."https://x-access-token:${{ secrets.ORG_TOKEN }}@github.com/".insteadOf "https://github.com/"
+
+      - name: Push to org repo
+        run: |
+          git remote add org https://github.com/CodeStudyBOJ/HYUN.git
+          git push org HEAD:main

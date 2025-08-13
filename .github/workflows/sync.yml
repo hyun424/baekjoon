@@ -1,0 +1,22 @@
+name: Sync to Org Repo
+
+on:
+  push:
+    branches:
+      - main  # 동기화할 브랜치
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout personal repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to org repo
+        run: |
+          git config --global user.name "hyun424"
+          git config --global user.email "amorew_@naver.com"
+          git remote add org https://x-access-token:${{ secrets.ORG_TOKEN }}@github.com/CodeStudyBOJ/HYUN.git
+          git push --mirror org

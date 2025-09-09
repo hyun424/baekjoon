@@ -1,50 +1,44 @@
 import sys
-from collections import deque
 from itertools import combinations
+
 input = sys.stdin.readline
 
-n,m=map(int,input().split())
-b=[list(map(int,input().split())) for _ in range(n)]
+n, m = map(int, input().split())
+board = [list(map(int, input().split())) for _ in range(n)]
 
-'''
-1. 치킨 거리의 합을 구하는 함수
-2. m개의 치킨집을 고르는 합수
-'''
-home=[]
-chicken=[]
+homes, chickens = [], []
 for i in range(n):
-    for j in range(n):
-        if b[i][j]==1:
-            home.append((i,j))
-        elif b[i][j]==2:
-            chicken.append((i,j))
+    for j, v in enumerate(board[i]):
+        if v == 1:
+            homes.append((i, j))
+        elif v == 2:
+            chickens.append((i, j))
 
+H, C = len(homes), len(chickens)
 
+# 집 h에서 각 치킨집 c까지의 맨해튼 거리를 미리 계산 (H x C)
+dists = [[abs(hx - cx) + abs(hy - cy) for (cx, cy) in chickens]
+         for (hx, hy) in homes]
 
-def dist(selected_chicken:list,home:list)->int:
-    
-    res=0
-    
-    for h in home:
-        min=2*(n+1)
-        for c in selected_chicken:
-            temp=abs(h[0]-c[0])+abs(h[1]-c[1])
-            if temp<min:
-                min=temp
-        res+=min
-    
-    return res
-#여기서는 선택된 치킨집의 리스트를 반환하고싶은데 
-res=[]
-for c in combinations(chicken,m):
-    res.append(dist(c,home))
+best = 10**9
 
-print(min(res))  
-        
+# C개 치킨집 중 m개 선택 조합을 순회
+for comb in combinations(range(C), m):
+    total = 0
+    # 각 집마다 선택된 치킨집들 중 최소 거리만 더함 (가지치기 포함)
+    for h in range(H):
+        row = dists[h]
+        mh = 1_000_000
+        for j in comb:
+            dj = row[j]
+            if dj < mh:
+                mh = dj
+                if mh == 0:  # 더 줄 수 없음
+                    break
+        total += mh
+        if total >= best:  # 현재 최적 해보다 크면 더 볼 필요 없음
+            break
+    if total < best:
+        best = total
 
-
-
-
-
-
-
+print(best)

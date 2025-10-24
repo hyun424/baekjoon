@@ -1,43 +1,40 @@
-from itertools import combinations
-from bisect import bisect_left
-
 def solution(info, query):
-    answer = []
-    db = {}
-
-    # info 처리
+    data = dict()
+    for a in ['cpp', 'java', 'python', '-']:
+        for b in ['backend', 'frontend', '-']:
+            for c in ['junior', 'senior', '-']:
+                for d in ['chicken', 'pizza', '-']:
+                    data.setdefault((a, b, c, d), list())
     for i in info:
-        parts = i.split()
-        conditions = parts[:-1]
-        score = int(parts[-1])
+        i = i.split()
+        for a in [i[0], '-']:
+            for b in [i[1], '-']:
+                for c in [i[2], '-']:
+                    for d in [i[3], '-']:
+                        data[(a, b, c, d)].append(int(i[4]))
 
-        # 4개의 조건에서 '-'가 들어올 수 있는 모든 조합 생성
-        for n in range(5):
-            for c in combinations(range(4), n):
-                temp = conditions.copy()
-                for v in c:
-                    temp[v] = '-'
-                key = ''.join(temp)
-                if key not in db:
-                    db[key] = []
-                db[key].append(score)
+    for k in data:
+        data[k].sort()
 
-    # 각 조건별 점수 리스트를 정렬 (이진 탐색용)
-    for key in db:
-        db[key].sort()
+        # print(k, data[k])
 
-    # query 처리
+    answer = list()
     for q in query:
-        q = q.replace("and", "").replace("  ", " ")
-        q = q.strip().split()
-        key = ''.join(q[:-1])
-        target = int(q[-1])
+        q = q.split()
 
-        if key in db:
-            scores = db[key]
-            idx = bisect_left(scores, target)
-            answer.append(len(scores) - idx)
-        else:
-            answer.append(0)
+        pool = data[(q[0], q[2], q[4], q[6])]
+        find = int(q[7])
+        l = 0
+        r = len(pool)
+        mid = 0
+        while l < r:
+            mid = (r+l)//2
+            if pool[mid] >= find:
+                r = mid
+            else:
+                l = mid+1
+            # print(l, r, mid, answer)
+        # answer.append((pool, find, mid))
+        answer.append(len(pool)-l)
 
     return answer

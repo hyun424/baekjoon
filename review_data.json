@@ -958,13 +958,19 @@
       "path": "프로그래머스/0/181874. A 강조하기",
       "first_solved": "2026-02-09",
       "sm2": {
-        "step": 0,
-        "interval": 1,
-        "last_reviewed": null,
-        "next_review": "2026-02-10",
-        "review_count": 0,
+        "step": 1,
+        "interval": 3,
+        "last_reviewed": "2026-02-12",
+        "next_review": "2026-02-15",
+        "review_count": 1,
         "graduated": false,
-        "history": []
+        "history": [
+          {
+            "date": "2026-02-12",
+            "quality": 5,
+            "interval_after": 3
+          }
+        ]
       }
     },
     "programmers_181875": {
@@ -2674,7 +2680,7 @@
   },
   "stats": {
     "total_problems": 108,
-    "total_reviews": 13,
+    "total_reviews": 14,
     "current_streak": 1,
     "longest_streak": 1,
     "last_review_date": "2026-02-12"

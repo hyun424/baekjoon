@@ -131,6 +131,7 @@ def send_discord_message(bot_token: str, channel_id: str, payload: dict):
     headers = {
         "Authorization": f"Bot {bot_token}",
         "Content-Type": "application/json",
+        "User-Agent": "ReviewBot/1.0",
     }
     body = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(url, data=body, headers=headers, method="POST")

@@ -68,7 +68,8 @@ jobs:
           url = f\"https://discord.com/api/v10/channels/{os.environ['DISCORD_CHANNEL_ID']}/messages\"
           req = urllib.request.Request(url, data=body, headers={
               'Authorization': f\"Bot {os.environ['DISCORD_BOT_TOKEN']}\",
-              'Content-Type': 'application/json'
+              'Content-Type': 'application/json',
+              'User-Agent': 'ReviewBot/1.0'
           })
           urllib.request.urlopen(req)
           print('Discord notification sent!')

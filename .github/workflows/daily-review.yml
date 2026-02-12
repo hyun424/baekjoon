@@ -2,7 +2,7 @@ name: Daily Review Notification
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 00:00 UTC = 09:00 KST
+    - cron: "30 23 * * *"  # 23:30 UTC = 08:30 KST
   workflow_dispatch:
 
 permissions:

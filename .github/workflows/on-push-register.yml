@@ -1,0 +1,85 @@
+name: Register New Problem
+
+on:
+  push:
+    paths:
+      - "백준/**/README.md"
+      - "프로그래머스/**/README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Find new README files
+        id: find-new
+        run: |
+          # 새로 추가된 README.md 파일만 찾기
+          ADDED=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | grep -E '(백준|프로그래머스)/.*/README\.md$' || true)
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$ADDED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          if [ -z "$ADDED" ]; then
+            echo "has_new=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_new=true" >> $GITHUB_OUTPUT
+            echo "New files found:"
+            echo "$ADDED"
+          fi
+
+      - name: Register new problems
+        if: steps.find-new.outputs.has_new == 'true'
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+        run: |
+          REGISTERED=""
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            echo "Processing: $file"
+            OUTPUT=$(python .github/scripts/register_problem.py "$file" review_data.json 2>&1)
+            echo "$OUTPUT"
+            if echo "$OUTPUT" | grep -q "^Registered:"; then
+              REGISTERED="$REGISTERED|$OUTPUT"
+            fi
+          done <<< "${{ steps.find-new.outputs.files }}"
+
+          # Discord 알림
+          if [ -n "$REGISTERED" ] && [ -n "$DISCORD_BOT_TOKEN" ] && [ -n "$DISCORD_CHANNEL_ID" ]; then
+            python -c "
+          import json, os, urllib.request
+          registered = '''$REGISTERED'''.strip('|').split('|')
+          desc = '**🆕 새 문제 등록!**\n'
+          for r in registered:
+              if r.strip():
+                  desc += f'\n✅ {r.strip()}'
+          payload = {'embeds': [{'description': desc, 'color': 0x2ECC71}]}
+          body = json.dumps(payload).encode()
+          url = f\"https://discord.com/api/v10/channels/{os.environ['DISCORD_CHANNEL_ID']}/messages\"
+          req = urllib.request.Request(url, data=body, headers={
+              'Authorization': f\"Bot {os.environ['DISCORD_BOT_TOKEN']}\",
+              'Content-Type': 'application/json'
+          })
+          urllib.request.urlopen(req)
+          print('Discord notification sent!')
+          "
+          fi
+
+      - name: Commit review_data.json
+        if: steps.find-new.outputs.has_new == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add review_data.json
+          git diff --staged --quiet || git commit -m "chore: register new problem from push"
+          git push

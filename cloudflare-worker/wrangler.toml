@@ -1,0 +1,9 @@
+name = "review-bot"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# Set these via `npx wrangler secret put <KEY>`:
+#   DISCORD_PUBLIC_KEY
+#   GITHUB_PAT
+#   GITHUB_OWNER
+#   GITHUB_REPO

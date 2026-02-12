@@ -6,13 +6,13 @@ SM-2 기반 망각곡선 복습 스케줄러 (고정 간격 변형)
   3 (어렴풋이/🤔) → 같은 단계 유지
   5 (기억남/😊)   → 다음 단계로 진행
 
-고정 간격: 1일 → 3일 → 7일 → 14일 → 21일
-5단계 모두 통과 → 복습 완료 (graduated)
+고정 간격: 1일 → 3일 → 7일 → 14일 → 21일 → 30일 → 45일 → 60일 → 90일
+9단계 모두 통과 → 복습 완료 (graduated)
 """
 
 from datetime import datetime, timedelta, timezone
 
-INTERVALS = [1, 3, 7, 14, 21]
+INTERVALS = [1, 3, 7, 14, 21, 30, 45, 60, 90]
 MAX_STEP = len(INTERVALS) - 1
 
 

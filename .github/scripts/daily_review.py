@@ -55,7 +55,7 @@ def _build_problem_block(problem: dict, index: int):
 
     category_str = ", ".join(problem.get("category", [])) or "미분류"
     step = sm2.get("step", 0)
-    interval_info = f"단계: {step + 1}/5 ({INTERVALS[min(step, len(INTERVALS)-1)]}일)"
+    interval_info = f"단계: {step + 1}/{len(INTERVALS)} ({INTERVALS[min(step, len(INTERVALS)-1)]}일)"
 
     text = f"\n\n**{index}. [{problem['difficulty']}] {problem['title']} - {problem['number']}**"
     text += f"\n   분류: {category_str}"

@@ -1,8 +1,2601 @@
 {
   "version": 1,
-  "problems": {},
+  "problems": {
+    "baekjoon_1009": {
+      "id": "baekjoon_1009",
+      "source": "백준",
+      "number": 1009,
+      "title": "분산처리",
+      "difficulty": "Bronze II",
+      "category": [
+        "수학",
+        "구현"
+      ],
+      "language": "py",
+      "link": "https://www.acmicpc.net/problem/1009",
+      "path": "백준/Bronze/1009. 분산처리",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181829": {
+      "id": "programmers_181829",
+      "source": "프로그래머스",
+      "number": 181829,
+      "title": "이차원 배열 대각선 순회하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181829",
+      "path": "프로그래머스/0/181829. 이차원 배열 대각선 순회하기",
+      "first_solved": "2026-02-11",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-12",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181831": {
+      "id": "programmers_181831",
+      "source": "프로그래머스",
+      "number": 181831,
+      "title": "특별한 이차원 배열 2",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181831",
+      "path": "프로그래머스/0/181831. 특별한 이차원 배열 2",
+      "first_solved": "2026-02-10",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-11",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181833": {
+      "id": "programmers_181833",
+      "source": "프로그래머스",
+      "number": 181833,
+      "title": "특별한 이차원 배열 1",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181833",
+      "path": "프로그래머스/0/181833. 특별한 이차원 배열 1",
+      "first_solved": "2026-02-10",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-11",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181834": {
+      "id": "programmers_181834",
+      "source": "프로그래머스",
+      "number": 181834,
+      "title": "l로 만들기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181834",
+      "path": "프로그래머스/0/181834. l로 만들기",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181835": {
+      "id": "programmers_181835",
+      "source": "프로그래머스",
+      "number": 181835,
+      "title": "조건에 맞게 수열 변환하기 3",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181835",
+      "path": "프로그래머스/0/181835. 조건에 맞게 수열 변환하기 3",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181837": {
+      "id": "programmers_181837",
+      "source": "프로그래머스",
+      "number": 181837,
+      "title": "커피 심부름",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181837",
+      "path": "프로그래머스/0/181837. 커피 심부름",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181838": {
+      "id": "programmers_181838",
+      "source": "프로그래머스",
+      "number": 181838,
+      "title": "날짜 비교하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181838",
+      "path": "프로그래머스/0/181838. 날짜 비교하기",
+      "first_solved": "2026-02-11",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-12",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181839": {
+      "id": "programmers_181839",
+      "source": "프로그래머스",
+      "number": 181839,
+      "title": "주사위 게임 1",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181839",
+      "path": "프로그래머스/0/181839. 주사위 게임 1",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181840": {
+      "id": "programmers_181840",
+      "source": "프로그래머스",
+      "number": 181840,
+      "title": "정수 찾기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181840",
+      "path": "프로그래머스/0/181840. 정수 찾기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181841": {
+      "id": "programmers_181841",
+      "source": "프로그래머스",
+      "number": 181841,
+      "title": "꼬리 문자열",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181841",
+      "path": "프로그래머스/0/181841. 꼬리 문자열",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181842": {
+      "id": "programmers_181842",
+      "source": "프로그래머스",
+      "number": 181842,
+      "title": "부분 문자열",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181842",
+      "path": "프로그래머스/0/181842. 부분 문자열",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181843": {
+      "id": "programmers_181843",
+      "source": "프로그래머스",
+      "number": 181843,
+      "title": "부분 문자열인지 확인하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181843",
+      "path": "프로그래머스/0/181843. 부분 문자열인지 확인하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181845": {
+      "id": "programmers_181845",
+      "source": "프로그래머스",
+      "number": 181845,
+      "title": "문자열로 변환",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181845",
+      "path": "프로그래머스/0/181845. 문자열로 변환",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181847": {
+      "id": "programmers_181847",
+      "source": "프로그래머스",
+      "number": 181847,
+      "title": "0 떼기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181847",
+      "path": "프로그래머스/0/181847. 0 떼기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181848": {
+      "id": "programmers_181848",
+      "source": "프로그래머스",
+      "number": 181848,
+      "title": "문자열을 정수로 변환하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181848",
+      "path": "프로그래머스/0/181848. 문자열을 정수로 변환하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181849": {
+      "id": "programmers_181849",
+      "source": "프로그래머스",
+      "number": 181849,
+      "title": "문자열 정수의 합",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181849",
+      "path": "프로그래머스/0/181849. 문자열 정수의 합",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181850": {
+      "id": "programmers_181850",
+      "source": "프로그래머스",
+      "number": 181850,
+      "title": "정수 부분",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181850",
+      "path": "프로그래머스/0/181850. 정수 부분",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181852": {
+      "id": "programmers_181852",
+      "source": "프로그래머스",
+      "number": 181852,
+      "title": "뒤에서 5등 위로",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181852",
+      "path": "프로그래머스/0/181852. 뒤에서 5등 위로",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181853": {
+      "id": "programmers_181853",
+      "source": "프로그래머스",
+      "number": 181853,
+      "title": "뒤에서 5등까지",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181853",
+      "path": "프로그래머스/0/181853. 뒤에서 5등까지",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181854": {
+      "id": "programmers_181854",
+      "source": "프로그래머스",
+      "number": 181854,
+      "title": "배열의 길이에 따라 다른 연산하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181854",
+      "path": "프로그래머스/0/181854. 배열의 길이에 따라 다른 연산하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181855": {
+      "id": "programmers_181855",
+      "source": "프로그래머스",
+      "number": 181855,
+      "title": "문자열 묶기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181855",
+      "path": "프로그래머스/0/181855. 문자열 묶기",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181856": {
+      "id": "programmers_181856",
+      "source": "프로그래머스",
+      "number": 181856,
+      "title": "배열 비교하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181856",
+      "path": "프로그래머스/0/181856. 배열 비교하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181857": {
+      "id": "programmers_181857",
+      "source": "프로그래머스",
+      "number": 181857,
+      "title": "배열의 길이를 2의 거듭제곱으로 만들기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181857",
+      "path": "프로그래머스/0/181857. 배열의 길이를 2의 거듭제곱으로 만들기",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181859": {
+      "id": "programmers_181859",
+      "source": "프로그래머스",
+      "number": 181859,
+      "title": "배열 만들기 6",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181859",
+      "path": "프로그래머스/0/181859. 배열 만들기 6",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181860": {
+      "id": "programmers_181860",
+      "source": "프로그래머스",
+      "number": 181860,
+      "title": "빈 배열에 추가, 삭제하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181860",
+      "path": "프로그래머스/0/181860. 빈 배열에 추가， 삭제하기",
+      "first_solved": "2026-02-11",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-12",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181861": {
+      "id": "programmers_181861",
+      "source": "프로그래머스",
+      "number": 181861,
+      "title": "배열의 원소만큼 추가하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181861",
+      "path": "프로그래머스/0/181861. 배열의 원소만큼 추가하기",
+      "first_solved": "2026-02-03",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-04",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181862": {
+      "id": "programmers_181862",
+      "source": "프로그래머스",
+      "number": 181862,
+      "title": "세 개의 구분자",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181862",
+      "path": "프로그래머스/0/181862. 세 개의 구분자",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181863": {
+      "id": "programmers_181863",
+      "source": "프로그래머스",
+      "number": 181863,
+      "title": "rny_string",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181863",
+      "path": "프로그래머스/0/181863. rny＿string",
+      "first_solved": "2026-02-05",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-06",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181864": {
+      "id": "programmers_181864",
+      "source": "프로그래머스",
+      "number": 181864,
+      "title": "문자열 바꿔서 찾기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181864",
+      "path": "프로그래머스/0/181864. 문자열 바꿔서 찾기",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181865": {
+      "id": "programmers_181865",
+      "source": "프로그래머스",
+      "number": 181865,
+      "title": "간단한 식 계산하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181865",
+      "path": "프로그래머스/0/181865. 간단한 식 계산하기",
+      "first_solved": "2026-02-06",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-07",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181867": {
+      "id": "programmers_181867",
+      "source": "프로그래머스",
+      "number": 181867,
+      "title": "x 사이의 개수",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181867",
+      "path": "프로그래머스/0/181867. x 사이의 개수",
+      "first_solved": "2026-02-05",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-06",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181868": {
+      "id": "programmers_181868",
+      "source": "프로그래머스",
+      "number": 181868,
+      "title": "공백으로 구분하기 2",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181868",
+      "path": "프로그래머스/0/181868. 공백으로 구분하기 2",
+      "first_solved": "2026-02-05",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-06",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181869": {
+      "id": "programmers_181869",
+      "source": "프로그래머스",
+      "number": 181869,
+      "title": "공백으로 구분하기 1",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181869",
+      "path": "프로그래머스/0/181869. 공백으로 구분하기 1",
+      "first_solved": "2026-02-05",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-06",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181870": {
+      "id": "programmers_181870",
+      "source": "프로그래머스",
+      "number": 181870,
+      "title": "ad 제거하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181870",
+      "path": "프로그래머스/0/181870. ad 제거하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181871": {
+      "id": "programmers_181871",
+      "source": "프로그래머스",
+      "number": 181871,
+      "title": "문자열이 몇 번 등장하는지 세기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181871",
+      "path": "프로그래머스/0/181871. 문자열이 몇 번 등장하는지 세기",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181872": {
+      "id": "programmers_181872",
+      "source": "프로그래머스",
+      "number": 181872,
+      "title": "특정 문자열로 끝나는 가장 긴 부분 문자열 찾기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181872",
+      "path": "프로그래머스/0/181872. 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181873": {
+      "id": "programmers_181873",
+      "source": "프로그래머스",
+      "number": 181873,
+      "title": "특정한 문자를 대문자로 바꾸기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181873",
+      "path": "프로그래머스/0/181873. 특정한 문자를 대문자로 바꾸기",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181874": {
+      "id": "programmers_181874",
+      "source": "프로그래머스",
+      "number": 181874,
+      "title": "A 강조하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181874",
+      "path": "프로그래머스/0/181874. A 강조하기",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181875": {
+      "id": "programmers_181875",
+      "source": "프로그래머스",
+      "number": 181875,
+      "title": "배열에서 문자열 대소문자 변환하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181875",
+      "path": "프로그래머스/0/181875. 배열에서 문자열 대소문자 변환하기",
+      "first_solved": "2026-02-05",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-06",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181876": {
+      "id": "programmers_181876",
+      "source": "프로그래머스",
+      "number": 181876,
+      "title": "소문자로 바꾸기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181876",
+      "path": "프로그래머스/0/181876. 소문자로 바꾸기",
+      "first_solved": "2026-02-07",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-08",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181877": {
+      "id": "programmers_181877",
+      "source": "프로그래머스",
+      "number": 181877,
+      "title": "대문자로 바꾸기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181877",
+      "path": "프로그래머스/0/181877. 대문자로 바꾸기",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181878": {
+      "id": "programmers_181878",
+      "source": "프로그래머스",
+      "number": 181878,
+      "title": "원하는 문자열 찾기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181878",
+      "path": "프로그래머스/0/181878. 원하는 문자열 찾기",
+      "first_solved": "2026-02-08",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-09",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181879": {
+      "id": "programmers_181879",
+      "source": "프로그래머스",
+      "number": 181879,
+      "title": "길이에 따른 연산",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181879",
+      "path": "프로그래머스/0/181879. 길이에 따른 연산",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181880": {
+      "id": "programmers_181880",
+      "source": "프로그래머스",
+      "number": 181880,
+      "title": "1로 만들기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181880",
+      "path": "프로그래머스/0/181880. 1로 만들기",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181881": {
+      "id": "programmers_181881",
+      "source": "프로그래머스",
+      "number": 181881,
+      "title": "조건에 맞게 수열 변환하기 2",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181881",
+      "path": "프로그래머스/0/181881. 조건에 맞게 수열 변환하기 2",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181882": {
+      "id": "programmers_181882",
+      "source": "프로그래머스",
+      "number": 181882,
+      "title": "조건에 맞게 수열 변환하기 1",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181882",
+      "path": "프로그래머스/0/181882. 조건에 맞게 수열 변환하기 1",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181883": {
+      "id": "programmers_181883",
+      "source": "프로그래머스",
+      "number": 181883,
+      "title": "수열과 구간 쿼리 1",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181883",
+      "path": "프로그래머스/0/181883. 수열과 구간 쿼리 1",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181884": {
+      "id": "programmers_181884",
+      "source": "프로그래머스",
+      "number": 181884,
+      "title": "n보다 커질 때까지 더하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181884",
+      "path": "프로그래머스/0/181884. n보다 커질 때까지 더하기",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181885": {
+      "id": "programmers_181885",
+      "source": "프로그래머스",
+      "number": 181885,
+      "title": "할 일 목록",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181885",
+      "path": "프로그래머스/0/181885. 할 일 목록",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181886": {
+      "id": "programmers_181886",
+      "source": "프로그래머스",
+      "number": 181886,
+      "title": "5명씩",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181886",
+      "path": "프로그래머스/0/181886. 5명씩",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181887": {
+      "id": "programmers_181887",
+      "source": "프로그래머스",
+      "number": 181887,
+      "title": "홀수 vs 짝수",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181887",
+      "path": "프로그래머스/0/181887. 홀수 vs 짝수",
+      "first_solved": "2026-02-05",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-06",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181888": {
+      "id": "programmers_181888",
+      "source": "프로그래머스",
+      "number": 181888,
+      "title": "n개 간격의 원소들",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181888",
+      "path": "프로그래머스/0/181888. n개 간격의 원소들",
+      "first_solved": "2026-01-31",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-01",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181889": {
+      "id": "programmers_181889",
+      "source": "프로그래머스",
+      "number": 181889,
+      "title": "n 번째 원소까지",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181889",
+      "path": "프로그래머스/0/181889. n 번째 원소까지",
+      "first_solved": "2026-01-31",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-01",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181890": {
+      "id": "programmers_181890",
+      "source": "프로그래머스",
+      "number": 181890,
+      "title": "왼쪽 오른쪽",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181890",
+      "path": "프로그래머스/0/181890. 왼쪽 오른쪽",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181891": {
+      "id": "programmers_181891",
+      "source": "프로그래머스",
+      "number": 181891,
+      "title": "순서 바꾸기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181891",
+      "path": "프로그래머스/0/181891. 순서 바꾸기",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181892": {
+      "id": "programmers_181892",
+      "source": "프로그래머스",
+      "number": 181892,
+      "title": "n 번째 원소부터",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181892",
+      "path": "프로그래머스/0/181892. n 번째 원소부터",
+      "first_solved": "2026-01-31",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-01",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181894": {
+      "id": "programmers_181894",
+      "source": "프로그래머스",
+      "number": 181894,
+      "title": "2의 영역",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181894",
+      "path": "프로그래머스/0/181894. 2의 영역",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181895": {
+      "id": "programmers_181895",
+      "source": "프로그래머스",
+      "number": 181895,
+      "title": "배열 만들기 3",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181895",
+      "path": "프로그래머스/0/181895. 배열 만들기 3",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181896": {
+      "id": "programmers_181896",
+      "source": "프로그래머스",
+      "number": 181896,
+      "title": "첫 번째로 나오는 음수",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181896",
+      "path": "프로그래머스/0/181896. 첫 번째로 나오는 음수",
+      "first_solved": "2026-01-31",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-01",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181897": {
+      "id": "programmers_181897",
+      "source": "프로그래머스",
+      "number": 181897,
+      "title": "리스트 자르기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181897",
+      "path": "프로그래머스/0/181897. 리스트 자르기",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181898": {
+      "id": "programmers_181898",
+      "source": "프로그래머스",
+      "number": 181898,
+      "title": "가까운 1 찾기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181898",
+      "path": "프로그래머스/0/181898. 가까운 1 찾기",
+      "first_solved": "2026-02-07",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-08",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181899": {
+      "id": "programmers_181899",
+      "source": "프로그래머스",
+      "number": 181899,
+      "title": "카운트 다운",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181899",
+      "path": "프로그래머스/0/181899. 카운트 다운",
+      "first_solved": "2026-02-10",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-11",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181900": {
+      "id": "programmers_181900",
+      "source": "프로그래머스",
+      "number": 181900,
+      "title": "글자 지우기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181900",
+      "path": "프로그래머스/0/181900. 글자 지우기",
+      "first_solved": "2026-02-11",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-12",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181901": {
+      "id": "programmers_181901",
+      "source": "프로그래머스",
+      "number": 181901,
+      "title": "배열 만들기 1",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181901",
+      "path": "프로그래머스/0/181901. 배열 만들기 1",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181903": {
+      "id": "programmers_181903",
+      "source": "프로그래머스",
+      "number": 181903,
+      "title": "qr code",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181903",
+      "path": "프로그래머스/0/181903. qr code",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181904": {
+      "id": "programmers_181904",
+      "source": "프로그래머스",
+      "number": 181904,
+      "title": "세로 읽기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181904",
+      "path": "프로그래머스/0/181904. 세로 읽기",
+      "first_solved": "2026-02-11",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-12",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181905": {
+      "id": "programmers_181905",
+      "source": "프로그래머스",
+      "number": 181905,
+      "title": "문자열 뒤집기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181905",
+      "path": "프로그래머스/0/181905. 문자열 뒤집기",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181906": {
+      "id": "programmers_181906",
+      "source": "프로그래머스",
+      "number": 181906,
+      "title": "접두사인지 확인하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181906",
+      "path": "프로그래머스/0/181906. 접두사인지 확인하기",
+      "first_solved": "2026-01-31",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-01",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181907": {
+      "id": "programmers_181907",
+      "source": "프로그래머스",
+      "number": 181907,
+      "title": "문자열의 앞의 n글자",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181907",
+      "path": "프로그래머스/0/181907. 문자열의 앞의 n글자",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181908": {
+      "id": "programmers_181908",
+      "source": "프로그래머스",
+      "number": 181908,
+      "title": "접미사인지 확인하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181908",
+      "path": "프로그래머스/0/181908. 접미사인지 확인하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181909": {
+      "id": "programmers_181909",
+      "source": "프로그래머스",
+      "number": 181909,
+      "title": "접미사 배열",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181909",
+      "path": "프로그래머스/0/181909. 접미사 배열",
+      "first_solved": "2026-02-10",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-11",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181911": {
+      "id": "programmers_181911",
+      "source": "프로그래머스",
+      "number": 181911,
+      "title": "부분 문자열 이어 붙여 문자열 만들기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181911",
+      "path": "프로그래머스/0/181911. 부분 문자열 이어 붙여 문자열 만들기",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181912": {
+      "id": "programmers_181912",
+      "source": "프로그래머스",
+      "number": 181912,
+      "title": "배열 만들기 5",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181912",
+      "path": "프로그래머스/0/181912. 배열 만들기 5",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181914": {
+      "id": "programmers_181914",
+      "source": "프로그래머스",
+      "number": 181914,
+      "title": "9로 나눈 나머지",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181914",
+      "path": "프로그래머스/0/181914. 9로 나눈 나머지",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181915": {
+      "id": "programmers_181915",
+      "source": "프로그래머스",
+      "number": 181915,
+      "title": "글자 이어 붙여 문자열 만들기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181915",
+      "path": "프로그래머스/0/181915. 글자 이어 붙여 문자열 만들기",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181917": {
+      "id": "programmers_181917",
+      "source": "프로그래머스",
+      "number": 181917,
+      "title": "간단한 논리 연산",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181917",
+      "path": "프로그래머스/0/181917. 간단한 논리 연산",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181919": {
+      "id": "programmers_181919",
+      "source": "프로그래머스",
+      "number": 181919,
+      "title": "콜라츠 수열 만들기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181919",
+      "path": "프로그래머스/0/181919. 콜라츠 수열 만들기",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181920": {
+      "id": "programmers_181920",
+      "source": "프로그래머스",
+      "number": 181920,
+      "title": "카운트 업",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181920",
+      "path": "프로그래머스/0/181920. 카운트 업",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181922": {
+      "id": "programmers_181922",
+      "source": "프로그래머스",
+      "number": 181922,
+      "title": "수열과 구간 쿼리 4",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181922",
+      "path": "프로그래머스/0/181922. 수열과 구간 쿼리 4",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181924": {
+      "id": "programmers_181924",
+      "source": "프로그래머스",
+      "number": 181924,
+      "title": "수열과 구간 쿼리 3",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181924",
+      "path": "프로그래머스/0/181924. 수열과 구간 쿼리 3",
+      "first_solved": "2026-02-12",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-13",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181925": {
+      "id": "programmers_181925",
+      "source": "프로그래머스",
+      "number": 181925,
+      "title": "수 조작하기 2",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181925",
+      "path": "프로그래머스/0/181925. 수 조작하기 2",
+      "first_solved": "2026-02-10",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-11",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181926": {
+      "id": "programmers_181926",
+      "source": "프로그래머스",
+      "number": 181926,
+      "title": "수 조작하기 1",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181926",
+      "path": "프로그래머스/0/181926. 수 조작하기 1",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181927": {
+      "id": "programmers_181927",
+      "source": "프로그래머스",
+      "number": 181927,
+      "title": "마지막 두 원소",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181927",
+      "path": "프로그래머스/0/181927. 마지막 두 원소",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181928": {
+      "id": "programmers_181928",
+      "source": "프로그래머스",
+      "number": 181928,
+      "title": "이어 붙인 수",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181928",
+      "path": "프로그래머스/0/181928. 이어 붙인 수",
+      "first_solved": "2026-01-31",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-01",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181929": {
+      "id": "programmers_181929",
+      "source": "프로그래머스",
+      "number": 181929,
+      "title": "원소들의 곱과 합",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181929",
+      "path": "프로그래머스/0/181929. 원소들의 곱과 합",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181930": {
+      "id": "programmers_181930",
+      "source": "프로그래머스",
+      "number": 181930,
+      "title": "주사위 게임 2",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181930",
+      "path": "프로그래머스/0/181930. 주사위 게임 2",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181931": {
+      "id": "programmers_181931",
+      "source": "프로그래머스",
+      "number": 181931,
+      "title": "등차수열의 특정한 항만 더하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181931",
+      "path": "프로그래머스/0/181931. 등차수열의 특정한 항만 더하기",
+      "first_solved": "2026-02-11",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-12",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181933": {
+      "id": "programmers_181933",
+      "source": "프로그래머스",
+      "number": 181933,
+      "title": "flag에 따라 다른 값 반환하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181933",
+      "path": "프로그래머스/0/181933. flag에 따라 다른 값 반환하기",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181934": {
+      "id": "programmers_181934",
+      "source": "프로그래머스",
+      "number": 181934,
+      "title": "조건 문자열",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181934",
+      "path": "프로그래머스/0/181934. 조건 문자열",
+      "first_solved": "2026-02-09",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-10",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181935": {
+      "id": "programmers_181935",
+      "source": "프로그래머스",
+      "number": 181935,
+      "title": "홀짝에 따라 다른 값 반환하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181935",
+      "path": "프로그래머스/0/181935. 홀짝에 따라 다른 값 반환하기",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181936": {
+      "id": "programmers_181936",
+      "source": "프로그래머스",
+      "number": 181936,
+      "title": "공배수",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181936",
+      "path": "프로그래머스/0/181936. 공배수",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181937": {
+      "id": "programmers_181937",
+      "source": "프로그래머스",
+      "number": 181937,
+      "title": "n의 배수",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181937",
+      "path": "프로그래머스/0/181937. n의 배수",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181938": {
+      "id": "programmers_181938",
+      "source": "프로그래머스",
+      "number": 181938,
+      "title": "두 수의 연산값 비교하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181938",
+      "path": "프로그래머스/0/181938. 두 수의 연산값 비교하기",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181939": {
+      "id": "programmers_181939",
+      "source": "프로그래머스",
+      "number": 181939,
+      "title": "더 크게 합치기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181939",
+      "path": "프로그래머스/0/181939. 더 크게 합치기",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181940": {
+      "id": "programmers_181940",
+      "source": "프로그래머스",
+      "number": 181940,
+      "title": "문자열 곱하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181940",
+      "path": "프로그래머스/0/181940. 문자열 곱하기",
+      "first_solved": "2026-01-31",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-01",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181941": {
+      "id": "programmers_181941",
+      "source": "프로그래머스",
+      "number": 181941,
+      "title": "문자 리스트를 문자열로 변환하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181941",
+      "path": "프로그래머스/0/181941. 문자 리스트를 문자열로 변환하기",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181942": {
+      "id": "programmers_181942",
+      "source": "프로그래머스",
+      "number": 181942,
+      "title": "문자열 섞기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181942",
+      "path": "프로그래머스/0/181942. 문자열 섞기",
+      "first_solved": "2026-02-11",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-12",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181943": {
+      "id": "programmers_181943",
+      "source": "프로그래머스",
+      "number": 181943,
+      "title": "문자열 겹쳐쓰기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181943",
+      "path": "프로그래머스/0/181943. 문자열 겹쳐쓰기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181944": {
+      "id": "programmers_181944",
+      "source": "프로그래머스",
+      "number": 181944,
+      "title": "홀짝 구분하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181944",
+      "path": "프로그래머스/0/181944. 홀짝 구분하기",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181945": {
+      "id": "programmers_181945",
+      "source": "프로그래머스",
+      "number": 181945,
+      "title": "문자열 돌리기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181945",
+      "path": "프로그래머스/0/181945. 문자열 돌리기",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181946": {
+      "id": "programmers_181946",
+      "source": "프로그래머스",
+      "number": 181946,
+      "title": "문자열 붙여서 출력하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181946",
+      "path": "프로그래머스/0/181946. 문자열 붙여서 출력하기",
+      "first_solved": "2026-01-30",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-01-31",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181947": {
+      "id": "programmers_181947",
+      "source": "프로그래머스",
+      "number": 181947,
+      "title": "덧셈식 출력하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181947",
+      "path": "프로그래머스/0/181947. 덧셈식 출력하기",
+      "first_solved": "2026-02-01",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-02",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181948": {
+      "id": "programmers_181948",
+      "source": "프로그래머스",
+      "number": 181948,
+      "title": "특수문자 출력하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181948",
+      "path": "프로그래머스/0/181948. 특수문자 출력하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181949": {
+      "id": "programmers_181949",
+      "source": "프로그래머스",
+      "number": 181949,
+      "title": "대소문자 바꿔서 출력하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181949",
+      "path": "프로그래머스/0/181949. 대소문자 바꿔서 출력하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181950": {
+      "id": "programmers_181950",
+      "source": "프로그래머스",
+      "number": 181950,
+      "title": "문자열 반복해서 출력하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181950",
+      "path": "프로그래머스/0/181950. 문자열 반복해서 출력하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181951": {
+      "id": "programmers_181951",
+      "source": "프로그래머스",
+      "number": 181951,
+      "title": "a와 b 출력하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181951",
+      "path": "프로그래머스/0/181951. a와 b 출력하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_181952": {
+      "id": "programmers_181952",
+      "source": "프로그래머스",
+      "number": 181952,
+      "title": "문자열 출력하기",
+      "difficulty": "level 0",
+      "category": [
+        "코딩테스트 연습",
+        "코딩 기초 트레이닝"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/181952",
+      "path": "프로그래머스/0/181952. 문자열 출력하기",
+      "first_solved": "2026-02-02",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-03",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    }
+  },
   "stats": {
-    "total_problems": 0,
+    "total_problems": 108,
     "total_reviews": 0,
     "current_streak": 0,
     "longest_streak": 0,

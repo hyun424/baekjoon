@@ -5,9 +5,7 @@
  *
  * Environment Variables (Cloudflare Worker Secrets):
  *   DISCORD_PUBLIC_KEY  - Discord Application Public Key
- *   GITHUB_PAT          - GitHub Personal Access Token (repo scope)
- *   GITHUB_OWNER        - GitHub repo owner (e.g., "hyun424")
- *   GITHUB_REPO         - GitHub repo name (e.g., "baekjoon")
+ *   GH_PAT              - GitHub Personal Access Token (repo scope)
  */
 
 const QUALITY_LABELS = { "1": "😰 모름", "3": "🤔 어렴풋이", "5": "😊 기억남" };
@@ -76,11 +74,11 @@ export default {
 };
 
 async function triggerGitHubDispatch(env, problemId, quality) {
-  const url = `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/dispatches`;
+  const url = "https://api.github.com/repos/hyun424/baekjoon/dispatches";
   const resp = await fetch(url, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${env.GITHUB_PAT}`,
+      Authorization: `Bearer ${env.GH_PAT}`,
       Accept: "application/vnd.github.v3+json",
       "User-Agent": "review-bot-worker",
       "Content-Type": "application/json",

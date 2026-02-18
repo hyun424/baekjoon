@@ -132,8 +132,15 @@ def parse_readme(readme_path: str) -> dict | None:
     }
 
 
+def is_easy_programmers(difficulty: str) -> bool:
+    """프로그래머스 level 0, 1은 복습 불필요."""
+    return difficulty in ("level 0", "level 1")
+
+
 def register_problem(data: dict, problem_info: dict) -> bool:
     """review_data.json에 문제 등록. 이미 있으면 건너뜀. 등록 시 True 반환."""
+    if is_easy_programmers(problem_info["difficulty"]):
+        return False
     pid = problem_info["id"]
     if pid in data["problems"]:
         return False

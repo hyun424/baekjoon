@@ -9,7 +9,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
-from register_problem import parse_readme, register_problem, load_review_data, save_review_data
+from register_problem import parse_readme, register_problem, is_easy_programmers, load_review_data, save_review_data
 
 
 def find_all_readmes(repo_root: str) -> list[str]:
@@ -39,12 +39,17 @@ def main():
     registered = 0
     skipped_old = 0
     skipped_dup = 0
+    skipped_easy = 0
     failed = 0
 
     for readme_path in sorted(readmes):
         info = parse_readme(readme_path)
         if not info:
             failed += 1
+            continue
+
+        if is_easy_programmers(info["difficulty"]):
+            skipped_easy += 1
             continue
 
         solved_date = datetime.strptime(info["first_solved"], "%Y-%m-%d").date()
@@ -62,6 +67,7 @@ def main():
 
     print(f"\n=== Bootstrap Complete ===")
     print(f"  Registered: {registered}")
+    print(f"  Skipped (easy): {skipped_easy}")
     print(f"  Skipped (old): {skipped_old}")
     print(f"  Skipped (dup): {skipped_dup}")
     print(f"  Failed to parse: {failed}")

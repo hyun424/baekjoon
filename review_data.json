@@ -65,10 +65,106 @@
           }
         ]
       }
+    },
+    "programmers_42577": {
+      "id": "programmers_42577",
+      "source": "프로그래머스",
+      "number": 42577,
+      "title": "전화번호 목록",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "해시"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/42577",
+      "path": "프로그래머스/2/42577. 전화번호 목록",
+      "first_solved": "2026-02-18",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-19",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_42578": {
+      "id": "programmers_42578",
+      "source": "프로그래머스",
+      "number": 42578,
+      "title": "의상",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "해시"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/42578",
+      "path": "프로그래머스/2/42578. 의상",
+      "first_solved": "2026-02-18",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-19",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_42839": {
+      "id": "programmers_42839",
+      "source": "프로그래머스",
+      "number": 42839,
+      "title": "소수 찾기",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "완전탐색"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/42839",
+      "path": "프로그래머스/2/42839. 소수 찾기",
+      "first_solved": "2026-02-18",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-19",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_42842": {
+      "id": "programmers_42842",
+      "source": "프로그래머스",
+      "number": 42842,
+      "title": "카펫",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "완전탐색"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/42842",
+      "path": "프로그래머스/2/42842. 카펫",
+      "first_solved": "2026-02-19",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-20",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
     }
   },
   "stats": {
-    "total_problems": 2,
+    "total_problems": 6,
     "total_reviews": 24,
     "current_streak": 2,
     "longest_streak": 2,

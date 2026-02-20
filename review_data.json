@@ -81,13 +81,19 @@
       "path": "프로그래머스/2/42577. 전화번호 목록",
       "first_solved": "2026-02-18",
       "sm2": {
-        "step": 0,
-        "interval": 1,
-        "last_reviewed": null,
-        "next_review": "2026-02-19",
-        "review_count": 0,
+        "step": 1,
+        "interval": 3,
+        "last_reviewed": "2026-02-20",
+        "next_review": "2026-02-23",
+        "review_count": 1,
         "graduated": false,
-        "history": []
+        "history": [
+          {
+            "date": "2026-02-20",
+            "quality": 5,
+            "interval_after": 3
+          }
+        ]
       }
     },
     "programmers_42578": {
@@ -165,9 +171,9 @@
   },
   "stats": {
     "total_problems": 6,
-    "total_reviews": 24,
-    "current_streak": 2,
-    "longest_streak": 2,
-    "last_review_date": "2026-02-19"
+    "total_reviews": 25,
+    "current_streak": 3,
+    "longest_streak": 3,
+    "last_review_date": "2026-02-20"
   }
 }

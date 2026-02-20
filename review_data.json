@@ -173,10 +173,226 @@
         "graduated": false,
         "history": []
       }
+    },
+    "programmers_1844": {
+      "id": "programmers_1844",
+      "source": "프로그래머스",
+      "number": 1844,
+      "title": "게임 맵 최단거리",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "깊이／너비 우선 탐색（DFS／BFS）"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/1844",
+      "path": "프로그래머스/2/1844. 게임 맵 최단거리",
+      "first_solved": "2026-02-19",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-20",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_42583": {
+      "id": "programmers_42583",
+      "source": "프로그래머스",
+      "number": 42583,
+      "title": "다리를 지나는 트럭",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "스택／큐"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/42583",
+      "path": "프로그래머스/2/42583. 다리를 지나는 트럭",
+      "first_solved": "2026-02-19",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-20",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_42584": {
+      "id": "programmers_42584",
+      "source": "프로그래머스",
+      "number": 42584,
+      "title": "주식가격",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "스택／큐"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/42584",
+      "path": "프로그래머스/2/42584. 주식가격",
+      "first_solved": "2026-02-20",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-21",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_42586": {
+      "id": "programmers_42586",
+      "source": "프로그래머스",
+      "number": 42586,
+      "title": "기능개발",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "스택／큐"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/42586",
+      "path": "프로그래머스/2/42586. 기능개발",
+      "first_solved": "2026-02-19",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-20",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_42746": {
+      "id": "programmers_42746",
+      "source": "프로그래머스",
+      "number": 42746,
+      "title": "가장 큰 수",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "정렬"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/42746",
+      "path": "프로그래머스/2/42746. 가장 큰 수",
+      "first_solved": "2026-02-19",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-20",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_42747": {
+      "id": "programmers_42747",
+      "source": "프로그래머스",
+      "number": 42747,
+      "title": "H-Index",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "정렬"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/42747",
+      "path": "프로그래머스/2/42747. H－Index",
+      "first_solved": "2026-02-19",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-20",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_43165": {
+      "id": "programmers_43165",
+      "source": "프로그래머스",
+      "number": 43165,
+      "title": "타겟 넘버",
+      "difficulty": "level 2",
+      "category": [
+        "코딩테스트 연습",
+        "깊이／너비 우선 탐색（DFS／BFS）"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/43165",
+      "path": "프로그래머스/2/43165. 타겟 넘버",
+      "first_solved": "2026-02-19",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-20",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_43162": {
+      "id": "programmers_43162",
+      "source": "프로그래머스",
+      "number": 43162,
+      "title": "네트워크",
+      "difficulty": "level 3",
+      "category": [
+        "코딩테스트 연습",
+        "깊이／너비 우선 탐색（DFS／BFS）"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/43162",
+      "path": "프로그래머스/3/43162. 네트워크",
+      "first_solved": "2026-02-19",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-20",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
+    },
+    "programmers_43163": {
+      "id": "programmers_43163",
+      "source": "프로그래머스",
+      "number": 43163,
+      "title": "단어 변환",
+      "difficulty": "level 3",
+      "category": [
+        "코딩테스트 연습",
+        "깊이／너비 우선 탐색（DFS／BFS）"
+      ],
+      "language": "java",
+      "link": "https://school.programmers.co.kr/learn/courses/30/lessons/43163",
+      "path": "프로그래머스/3/43163. 단어 변환",
+      "first_solved": "2026-02-19",
+      "sm2": {
+        "step": 0,
+        "interval": 1,
+        "last_reviewed": null,
+        "next_review": "2026-02-20",
+        "review_count": 0,
+        "graduated": false,
+        "history": []
+      }
     }
   },
   "stats": {
-    "total_problems": 6,
+    "total_problems": 15,
     "total_reviews": 26,
     "current_streak": 3,
     "longest_streak": 3,

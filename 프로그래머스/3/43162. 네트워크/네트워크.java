@@ -1,4 +1,7 @@
+import java.util.*;
+
 class Solution {
+
     public int solution(int n, int[][] computers) {
         boolean[] visited = new boolean[n];
         int answer = 0;
@@ -9,6 +12,7 @@ class Solution {
                 dfs(i, computers, visited);
             }
         }
+
         return answer;
     }
 

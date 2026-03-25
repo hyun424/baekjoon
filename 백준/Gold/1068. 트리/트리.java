@@ -7,21 +7,21 @@ public class Main {
     static int remove;
     static int root;
     static ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
-    static void leafnode(int parent){
 
-        if (parent == remove) return;
-        if (graph.get(parent).isEmpty()) {
-            res += 1;
-            return;
-        }
-        if(graph.get(parent).size() == 1 && graph.get(parent).get(0)==remove){
-            res += 1;
-            return;
-        }
+    static void leafnode(int parent){
+        int childCount = 0;
+
         for (int child : graph.get(parent)) {
+            if (child == remove) continue;
+            childCount++;
             leafnode(child);
         }
+
+        if (childCount == 0) {
+            res += 1;
+        }
     }
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());

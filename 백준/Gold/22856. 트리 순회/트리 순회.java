@@ -5,8 +5,6 @@ import java.util.StringTokenizer;
 public class Main {
     static int[][] graph;
     static int N;
-    static boolean[] visited;
-    static int res = 0;
 
     private static int findDepth() {
         int cur = 1;
@@ -19,20 +17,6 @@ public class Main {
         return depth;
     }
 
-    private static void tree(int parent){
-        int left = graph[parent][0];
-        int right = graph[parent][1];
-        visited[parent] = true;
-
-        if (left != -1 && !visited[left]) {
-            res += 2;
-            tree(left);
-        }
-        if (right != -1 && !visited[right]) {
-            res += 2;
-            tree(right);
-        }
-    }
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -50,8 +34,7 @@ public class Main {
             graph[a][0] = b;
             graph[a][1] = c;
         }
-        visited = new boolean[N + 1];
-        tree(1);
-        System.out.println(res - findDepth());
+
+        System.out.println(2 * (N - 1) - findDepth());
     }
 }

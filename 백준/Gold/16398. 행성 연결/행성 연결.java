@@ -4,51 +4,46 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {
-    private static int[] parent;
-    private static int find(int a){
-        if (parent[a] == a) return a;
-        return parent[a] = find(parent[a]);
-    }
-    static boolean union(int a, int b){
-        a = find(a);
-        b = find(b);
-        if (a == b) return false;
-        parent[b] = a;
-        return true;
-    }
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n =Integer.parseInt(br.readLine());
-        int[][] graph = new int[n * (n - 1) / 2][3];
-        parent = new int[n];
-        for(int i = 0; i < n; i++){
-            parent[i] = i;
+        int n = Integer.parseInt(br.readLine());
 
-        }
-        int idx = 0;
-        for (int i = 0; i < n; i++){
+        int[][] cost = new int[n][n];
+        for (int i = 0; i < n; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            for (int j = 0; j < n; j++){
-                int cost = Integer.parseInt(st.nextToken());
-                if (i < j){
-                    graph[idx][0] = i;
-                    graph[idx][1] = j;
-                    graph[idx][2] = cost;
-                    idx++;
+            for (int j = 0; j < n; j++) {
+                cost[i][j] = Integer.parseInt(st.nextToken());
+            }
+        }
+
+        boolean[] visited = new boolean[n];
+        int[] minEdge = new int[n];
+        Arrays.fill(minEdge, Integer.MAX_VALUE);
+        minEdge[0] = 0;
+
+        long answer = 0;
+
+        for (int i = 0; i < n; i++) {
+            int cur = -1;
+            int min = Integer.MAX_VALUE;
+
+            for (int j = 0; j < n; j++) {
+                if (!visited[j] && minEdge[j] < min) {
+                    min = minEdge[j];
+                    cur = j;
+                }
+            }
+
+            visited[cur] = true;
+            answer += min;
+
+            for (int j = 0; j < n; j++) {
+                if (!visited[j] && cost[cur][j] < minEdge[j]) {
+                    minEdge[j] = cost[cur][j];
                 }
             }
         }
-        Arrays.sort(graph, (a,b) -> Integer.compare(a[2],b[2]));
-        long answer = 0;
-        int count = 0;
-        for(int i = 0; i < idx; i++){
-            if(union(graph[i][0], graph[i][1])){
-                answer += graph[i][2];
-                count++;
-                if(count == n - 1) break;
-            }
-        }
+
         System.out.println(answer);
-        // int n = Integer.parseInt(br.readLine());
     }
 }

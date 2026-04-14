@@ -388,13 +388,19 @@
       "path": "프로그래머스/2/43165. 타겟 넘버",
       "first_solved": "2026-02-19",
       "sm2": {
-        "step": 0,
-        "interval": 1,
-        "last_reviewed": null,
-        "next_review": "2026-02-20",
-        "review_count": 0,
+        "step": 1,
+        "interval": 3,
+        "last_reviewed": "2026-04-14",
+        "next_review": "2026-04-17",
+        "review_count": 1,
         "graduated": false,
-        "history": []
+        "history": [
+          {
+            "date": "2026-04-14",
+            "quality": 5,
+            "interval_after": 3
+          }
+        ]
       }
     },
     "programmers_43162": {
@@ -448,7 +454,7 @@
   },
   "stats": {
     "total_problems": 15,
-    "total_reviews": 36,
+    "total_reviews": 37,
     "current_streak": 1,
     "longest_streak": 3,
     "last_review_date": "2026-04-14"

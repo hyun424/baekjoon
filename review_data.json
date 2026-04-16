@@ -91,11 +91,11 @@
       "path": "프로그래머스/2/42577. 전화번호 목록",
       "first_solved": "2026-02-18",
       "sm2": {
-        "step": 3,
-        "interval": 14,
+        "step": 4,
+        "interval": 21,
         "last_reviewed": "2026-04-16",
-        "next_review": "2026-04-30",
-        "review_count": 3,
+        "next_review": "2026-05-07",
+        "review_count": 4,
         "graduated": false,
         "history": [
           {
@@ -112,6 +112,11 @@
             "date": "2026-04-16",
             "quality": 5,
             "interval_after": 14
+          },
+          {
+            "date": "2026-04-16",
+            "quality": 5,
+            "interval_after": 21
           }
         ]
       }
@@ -492,7 +497,7 @@
   },
   "stats": {
     "total_problems": 15,
-    "total_reviews": 44,
+    "total_reviews": 45,
     "current_streak": 1,
     "longest_streak": 3,
     "last_review_date": "2026-04-16"

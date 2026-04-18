@@ -51,11 +51,11 @@
       "path": "프로그래머스/2/389480. 완전범죄",
       "first_solved": "2026-02-18",
       "sm2": {
-        "step": 1,
-        "interval": 3,
-        "last_reviewed": "2026-04-14",
-        "next_review": "2026-04-17",
-        "review_count": 3,
+        "step": 2,
+        "interval": 7,
+        "last_reviewed": "2026-04-18",
+        "next_review": "2026-04-25",
+        "review_count": 4,
         "graduated": false,
         "history": [
           {
@@ -72,6 +72,11 @@
             "date": "2026-04-14",
             "quality": 5,
             "interval_after": 3
+          },
+          {
+            "date": "2026-04-18",
+            "quality": 5,
+            "interval_after": 7
           }
         ]
       }
@@ -508,7 +513,7 @@
   },
   "stats": {
     "total_problems": 15,
-    "total_reviews": 47,
+    "total_reviews": 48,
     "current_streak": 1,
     "longest_streak": 3,
     "last_review_date": "2026-04-18"

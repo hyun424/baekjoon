@@ -2,29 +2,25 @@ import java.util.*;
 
 class Solution {
     public String[] solution(String[] players, String[] callings) {
-
-        Map<String, Integer> rank = new HashMap<>();
-
+        String[] answer = {};
+        HashMap<String, Integer> rank = new HashMap<>();
         for (int i = 0; i < players.length; i++) {
             rank.put(players[i], i);
         }
-
-        for (String name : callings) {
-
-            int curIdx = rank.get(name);
+        for (String call : callings) {
+            int curIdx = rank.get(call);
             int frontIdx = curIdx - 1;
 
             String frontPlayer = players[frontIdx];
 
             // swap
-            players[frontIdx] = name;
+            players[frontIdx] = call;
             players[curIdx] = frontPlayer;
 
-            // update map
-            rank.put(name, frontIdx);
+            // map 갱신
+            rank.put(call, frontIdx);
             rank.put(frontPlayer, curIdx);
         }
-
         return players;
     }
 }

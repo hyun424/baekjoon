@@ -141,11 +141,11 @@
       "path": "프로그래머스/2/42578. 의상",
       "first_solved": "2026-02-18",
       "sm2": {
-        "step": 1,
-        "interval": 3,
-        "last_reviewed": "2026-04-16",
-        "next_review": "2026-04-19",
-        "review_count": 2,
+        "step": 2,
+        "interval": 7,
+        "last_reviewed": "2026-04-21",
+        "next_review": "2026-04-28",
+        "review_count": 3,
         "graduated": false,
         "history": [
           {
@@ -157,6 +157,11 @@
             "date": "2026-04-16",
             "quality": 5,
             "interval_after": 3
+          },
+          {
+            "date": "2026-04-21",
+            "quality": 5,
+            "interval_after": 7
           }
         ]
       }
@@ -539,7 +544,7 @@
   },
   "stats": {
     "total_problems": 15,
-    "total_reviews": 53,
+    "total_reviews": 54,
     "current_streak": 1,
     "longest_streak": 3,
     "last_review_date": "2026-04-21"

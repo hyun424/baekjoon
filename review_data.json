@@ -251,17 +251,22 @@
       "path": "프로그래머스/2/1844. 게임 맵 최단거리",
       "first_solved": "2026-02-19",
       "sm2": {
-        "step": 1,
-        "interval": 3,
-        "last_reviewed": "2026-04-16",
-        "next_review": "2026-04-19",
-        "review_count": 1,
+        "step": 2,
+        "interval": 7,
+        "last_reviewed": "2026-04-21",
+        "next_review": "2026-04-28",
+        "review_count": 2,
         "graduated": false,
         "history": [
           {
             "date": "2026-04-16",
             "quality": 5,
             "interval_after": 3
+          },
+          {
+            "date": "2026-04-21",
+            "quality": 5,
+            "interval_after": 7
           }
         ]
       }
@@ -523,7 +528,7 @@
   },
   "stats": {
     "total_problems": 15,
-    "total_reviews": 50,
+    "total_reviews": 51,
     "current_streak": 1,
     "longest_streak": 3,
     "last_review_date": "2026-04-21"

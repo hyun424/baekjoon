@@ -2,21 +2,20 @@ import java.util.*;
 
 class Solution {
     public int[] solution(String[] name, int[] yearning, String[][] photo) {
-        int[] answer = new int[photo.length];
 
-        Map<String, Integer> yearnRate = new HashMap<>();
-        for (int i = 0; i < name.length; i++) {
-            yearnRate.put(name[i], yearning[i]);
+        HashMap<String, Integer> score = new HashMap<>();
+        int n = yearning.length;
+        for(int i = 0; i < n; i++){
+            score.put(name[i], yearning[i]);
         }
-
-        for (int j = 0; j < photo.length; j++) {
-            int sum = 0;
-            for (String person : photo[j]) {
-                sum += yearnRate.getOrDefault(person, 0); // 없으면 0점
+        int m = photo.length;
+        int[] answer = new int[m];
+        for(int i = 0; i < m; i++){
+            for(String person : photo[i]){
+                answer[i] += score.getOrDefault(person,0);
             }
-            answer[j] = sum;
         }
-
+        
         return answer;
     }
 }

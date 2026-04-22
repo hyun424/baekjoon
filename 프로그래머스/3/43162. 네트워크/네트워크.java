@@ -1,34 +1,27 @@
 import java.util.*;
 
 class Solution {
+    private static boolean[] visited;
     public int solution(int n, int[][] computers) {
         int answer = 0;
-
-     
-        boolean[] visited = new boolean[n];
-
-        Queue<int[]> q = new ArrayDeque<>();
-
-        for (int i = 0; i < n; i++) {
-            if (visited[i]) continue;    
-
-            answer++;                    
-            visited[i] = true;
-            q.offer(new int[] { i });     
-
-            while (!q.isEmpty()) {
-                int[] cur = q.poll();
-                int node = cur[0];
-
-                for (int next = 0; next < n; next++) {
-                    if (computers[node][next] == 1 && !visited[next]) {
-                        visited[next] = true;
-                        q.offer(new int[] { next });
+        visited = new boolean[n];
+        Deque<Integer> q = new ArrayDeque<>();
+        for(int i = 0; i < n; i++){
+            if(!visited[i]){
+                q.offer(i);
+                answer++;
+            }
+            while(!q.isEmpty()){
+                int cur = q.poll();
+                    visited[cur] = true;
+                    for(int j = 0; j < n; j++){
+                        if(computers[cur][j] == 1 && !visited[j]){
+                            q.offer(j);
+                        }
                     }
                 }
             }
-        }
-
+        
         return answer;
     }
 }

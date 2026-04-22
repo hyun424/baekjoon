@@ -16,11 +16,11 @@
       "path": "백준/Bronze/1009. 분산처리",
       "first_solved": "2026-01-30",
       "sm2": {
-        "step": 2,
-        "interval": 7,
-        "last_reviewed": "2026-02-19",
-        "next_review": "2026-02-26",
-        "review_count": 2,
+        "step": 3,
+        "interval": 14,
+        "last_reviewed": "2026-04-22",
+        "next_review": "2026-05-06",
+        "review_count": 3,
         "graduated": false,
         "history": [
           {
@@ -32,6 +32,11 @@
             "date": "2026-02-19",
             "quality": 5,
             "interval_after": 7
+          },
+          {
+            "date": "2026-04-22",
+            "quality": 5,
+            "interval_after": 14
           }
         ]
       }
@@ -549,9 +554,9 @@
   },
   "stats": {
     "total_problems": 15,
-    "total_reviews": 55,
-    "current_streak": 1,
+    "total_reviews": 56,
+    "current_streak": 2,
     "longest_streak": 3,
-    "last_review_date": "2026-04-21"
+    "last_review_date": "2026-04-22"
   }
 }

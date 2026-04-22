@@ -226,11 +226,11 @@
       "path": "프로그래머스/2/42842. 카펫",
       "first_solved": "2026-02-19",
       "sm2": {
-        "step": 1,
-        "interval": 3,
-        "last_reviewed": "2026-04-18",
-        "next_review": "2026-04-21",
-        "review_count": 2,
+        "step": 2,
+        "interval": 7,
+        "last_reviewed": "2026-04-22",
+        "next_review": "2026-04-29",
+        "review_count": 3,
         "graduated": false,
         "history": [
           {
@@ -242,6 +242,11 @@
             "date": "2026-04-18",
             "quality": 5,
             "interval_after": 3
+          },
+          {
+            "date": "2026-04-22",
+            "quality": 5,
+            "interval_after": 7
           }
         ]
       }
@@ -554,7 +559,7 @@
   },
   "stats": {
     "total_problems": 15,
-    "total_reviews": 56,
+    "total_reviews": 57,
     "current_streak": 2,
     "longest_streak": 3,
     "last_review_date": "2026-04-22"

@@ -2,6 +2,7 @@ import java.util.*;
 
 class Solution {
     public String solution(String[] participant, String[] completion) {
+
         HashMap<String, Integer> map = new HashMap<>();
 
         for (String p : participant) {
@@ -13,7 +14,7 @@ class Solution {
         }
 
         for (String key : map.keySet()) {
-            if (map.get(key) != 0) {
+            if (map.get(key) > 0) {
                 return key;
             }
         }

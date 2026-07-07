@@ -1,0 +1,14 @@
+-- 코드를 입력하세요
+/*
+경제 카테고리에 속하는 도서 id 저자명 출판일 리스트 출력 
+*/
+
+SELECT
+    B.BOOK_ID,
+    A.AUTHOR_NAME,
+    B.PUBLISHED_DATE
+FROM BOOK B
+JOIN AUTHOR A
+    ON B.AUTHOR_ID = A.AUTHOR_ID
+WHERE B.CATEGORY = '경제'
+ORDER BY B.PUBLISHED_DATE ASC;

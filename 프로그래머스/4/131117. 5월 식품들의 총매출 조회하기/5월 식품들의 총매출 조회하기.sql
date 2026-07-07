@@ -1,0 +1,24 @@
+-- 코드를 입력하세요
+/*
+2022-05 생산 식품의 id 이름 총매출 
+총매출 기준 내림차순, id 기준 오름차순 정렬
+produce_date 2022 05 
+*/
+SELECT
+    P.PRODUCT_ID,
+    P.PRODUCT_NAME,
+    SUM(P.PRICE * O.AMOUNT) AS TOTAL_SALES
+FROM FOOD_PRODUCT P
+JOIN FOOD_ORDER O
+    ON P.PRODUCT_ID = O.PRODUCT_ID
+WHERE 
+    O.PRODUCE_DATE >= '2022-05-01'
+    AND 
+    O.PRODUCE_DATE < '2022-06-01'
+GROUP BY 
+    P.PRODUCT_ID,
+    P.PRODUCT_NAME
+
+ORDER BY 
+    TOTAL_SALES DESC,
+    P.PRODUCT_ID ASC;

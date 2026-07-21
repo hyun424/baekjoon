@@ -20,12 +20,14 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
+| [0111-minimum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0100-same-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0101-symmetric-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0101-symmetric-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0111-minimum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -35,6 +37,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
+| [0111-minimum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -44,4 +47,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
+| [0111-minimum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 <!---LeetCode Topics End-->

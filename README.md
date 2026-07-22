@@ -21,6 +21,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
 | [0111-minimum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
+| [0112-path-sum](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -28,6 +29,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0101-symmetric-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0101-symmetric-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0111-minimum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
+| [0112-path-sum](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -38,6 +40,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
 | [0111-minimum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
+| [0112-path-sum](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -48,4 +51,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Medium/0107-binary-tree-level-order-traversal-ii/) | Medium |
 | [0111-minimum-depth-of-binary-tree](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
+| [0112-path-sum](https://github.com/hyun424/baekjoon/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 <!---LeetCode Topics End-->

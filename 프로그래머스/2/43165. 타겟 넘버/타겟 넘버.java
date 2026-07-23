@@ -1,18 +1,39 @@
-class Solution {
-    int answer = 0;
+import java.util.*;
 
-    public int solution(int[] numbers, int target) {
-        dfs(numbers, target, 0, 0);
-        return answer;
+class Solution {
+
+    static class State {
+        int idx;
+        int sum;
+
+        State(int idx, int sum) {
+            this.idx = idx;
+            this.sum = sum;
+        }
     }
 
-    private void dfs(int[] numbers, int target, int idx, int sum) {
-        if (idx == numbers.length) {
-            if (sum == target) answer++;
-            return;
+    public int solution(int[] numbers, int target) {
+        int answer = 0;
+
+        Queue<State> q = new ArrayDeque<>();
+        q.offer(new State(0, 0));
+
+        while (!q.isEmpty()) {
+            State cur = q.poll();
+
+            if (cur.idx == numbers.length) {
+                if (cur.sum == target) {
+                    answer++;
+                }
+                continue;
+            }
+
+            int num = numbers[cur.idx];
+
+            q.offer(new State(cur.idx + 1, cur.sum + num));
+            q.offer(new State(cur.idx + 1, cur.sum - num));
         }
 
-        dfs(numbers, target, idx + 1, sum + numbers[idx]);
-        dfs(numbers, target, idx + 1, sum - numbers[idx]);
+        return answer;
     }
 }

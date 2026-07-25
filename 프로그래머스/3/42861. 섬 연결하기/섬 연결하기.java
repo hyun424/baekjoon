@@ -1,52 +1,49 @@
 import java.util.*;
 
 class Solution {
-    static int[] parent;
-
+    private int[] parent;
+    
     public int solution(int n, int[][] costs) {
-        int answer = 0;
-
+        Arrays.sort(costs, Comparator.comparingInt(edge -> edge[2]));
+        
         parent = new int[n];
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++){
             parent[i] = i;
         }
-
-        Arrays.sort(costs, (a, b) -> a[2] - b[2]);
-
-        int count = 0;
-
-        for (int[] cost : costs) {
-            int a = cost[0];
-            int b = cost[1];
-            int c = cost[2];
-
-            if (find(a) != find(b)) {
-                union(a, b);
-                answer += c;
-                count++;
-
-                if (count == n - 1) {
-                    break;
-                }
+        
+        int answer = 0;
+        int connected = 0;
+        
+        for (int[] edge : costs){
+            int islandA = edge[0];
+            int islandB  = edge[1];
+            int cost = edge[2];
+            
+            if(find(islandA) == find(islandB)){
+                continue;
+            }
+            union(islandA, islandB);
+            answer += cost;
+            connected++;
+            
+            if(connected == n - 1){
+                break;
             }
         }
-
         return answer;
     }
-
-    static int find(int x) {
-        if (parent[x] == x) {
+    
+    private int find(int x){
+        if(parent[x] == x) {
             return x;
         }
         return parent[x] = find(parent[x]);
     }
-
-    static void union(int a, int b) {
+    
+    private void union(int a, int b){
         int rootA = find(a);
         int rootB = find(b);
-
-        if (rootA != rootB) {
-            parent[rootB] = rootA;
-        }
+        
+        parent[rootB] = rootA;
     }
 }

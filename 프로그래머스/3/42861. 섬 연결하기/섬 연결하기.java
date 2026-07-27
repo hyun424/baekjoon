@@ -2,48 +2,45 @@ import java.util.*;
 
 class Solution {
     private int[] parent;
-    
+    private int[] size;
     public int solution(int n, int[][] costs) {
-        Arrays.sort(costs, Comparator.comparingInt(edge -> edge[2]));
-        
-        parent = new int[n];
-        for(int i = 0; i < n; i++){
-            parent[i] = i;
-        }
-        
         int answer = 0;
-        int connected = 0;
-        
-        for (int[] edge : costs){
-            int islandA = edge[0];
-            int islandB  = edge[1];
-            int cost = edge[2];
+        Arrays.sort(costs, (a,b) -> (a[2] -b[2]));
+        int count = 0;
+        parent = new int[n + 1];
+        size = new int[n + 1];
+        for(int i = 0; i <= n; i++){
+            parent[i] = i;
+            size[i] = 1;
+        }
             
-            if(find(islandA) == find(islandB)){
-                continue;
+        for(int[] cost : costs){
+            if(count == n - 1){
+                return answer;
             }
-            union(islandA, islandB);
-            answer += cost;
-            connected++;
-            
-            if(connected == n - 1){
-                break;
+            if(union(cost[0], cost[1])){
+                answer += cost[2];
+                count++;
             }
         }
         return answer;
     }
     
-    private int find(int x){
-        if(parent[x] == x) {
-            return x;
-        }
-        return parent[x] = find(parent[x]);
+    private int find(int a){
+        if (parent[a] == a) return a;
+        return parent[a] = find(parent[a]);
     }
-    
-    private void union(int a, int b){
-        int rootA = find(a);
-        int rootB = find(b);
-        
-        parent[rootB] = rootA;
+    private boolean union(int a, int b){
+        int ra = find(a);
+        int rb = find(b);
+        if(ra == rb) return false;
+        if(size[ra] < size[rb]){
+            int temp = ra;
+            ra = rb;
+            rb = temp;
+        }
+        size[ra] = size[ra] + size[rb];
+        parent[rb] = ra;
+        return true;
     }
 }

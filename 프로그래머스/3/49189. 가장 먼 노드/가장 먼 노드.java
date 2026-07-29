@@ -1,42 +1,61 @@
 import java.util.*;
 
 class Solution {
-    public int solution(int n, int[][] edge) {
-        // 1) 인접 리스트 준비
-        List<Integer>[] graph = new ArrayList[n + 1];
-        for (int i = 1; i <= n; i++) graph[i] = new ArrayList<>();
-
-        // 2) 간선 추가 (양방향)
-        for (int[] e : edge) {
-            int a = e[0], b = e[1];
-            graph[a].add(b);
-            graph[b].add(a);
+    
+    private class Node{
+        int to;
+        int cost;
+        Node(int to, int cost){
+            this.to = to;
+            this.cost = cost;
         }
-
-        // 3) BFS 최단거리(간선 수) 구하기
+    }
+    public int solution(int n, int[][] vertex) {
+        int answer = 0;
+        int INF = Integer.MAX_VALUE / 4;
         int[] dist = new int[n + 1];
-        Arrays.fill(dist, -1);
-
-        ArrayDeque<Integer> q = new ArrayDeque<>();
+        Arrays.fill(dist, INF);
         dist[1] = 0;
-        q.offer(1);
-
-        while (!q.isEmpty()) {
-            int cur = q.poll();
-            for (int nxt : graph[cur]) {
-                if (dist[nxt] != -1) continue;
-                dist[nxt] = dist[cur] + 1;
-                q.offer(nxt);
-            }
+        ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
+        for (int i = 0; i <= n; i++){   
+            graph.add(new ArrayList<>());
         }
-
-        // 4) 최대 거리와 그 개수
-        int max = 0;
-        for (int i = 1; i <= n; i++) max = Math.max(max, dist[i]);
-
-        int ans = 0;
-        for (int i = 1; i <= n; i++) if (dist[i] == max) ans++;
-
-        return ans;
+        
+        for (int[] v : vertex){
+            int a = v[0];
+            int b = v[1];
+            graph.get(a).add(b);
+            graph.get(b).add(a);
+        }
+        PriorityQueue<Node> pq = new PriorityQueue<>((a, b)-> (a.cost - b.cost));
+        pq.offer(new Node(1, 0));
+        while(!pq.isEmpty()){
+            Node prev = pq.poll();
+            for(int next : graph.get(prev.to)){
+                if(prev.cost  > dist[prev.to]) continue;
+                int newCost = prev.cost + 1;
+                if(newCost < dist[next]){
+                    dist[next] = newCost;
+                    pq.offer(new Node(next, newCost));
+                }
+            }
+            
+            
+        }
+        
+            int max = 0;
+            for(int i = 1; i <= n; i++){
+                if(dist[i] > max){
+                    max = dist[i];
+                }
+            
+            }
+            
+            for(int i = 1; i <= n; i++){
+                if(dist[i] == max){
+                    answer++;
+                }
+            }
+        return answer;
     }
 }

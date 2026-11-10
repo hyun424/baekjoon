@@ -186,11 +186,11 @@
       "path": "프로그래머스/2/42839. 소수 찾기",
       "first_solved": "2026-02-18",
       "sm2": {
-        "step": 2,
-        "interval": 7,
-        "last_reviewed": "2026-04-16",
-        "next_review": "2026-04-23",
-        "review_count": 3,
+        "step": 3,
+        "interval": 14,
+        "last_reviewed": "2026-11-10",
+        "next_review": "2026-11-24",
+        "review_count": 4,
         "graduated": false,
         "history": [
           {
@@ -207,6 +207,11 @@
             "date": "2026-04-16",
             "quality": 5,
             "interval_after": 7
+          },
+          {
+            "date": "2026-11-10",
+            "quality": 5,
+            "interval_after": 14
           }
         ]
       }
@@ -574,7 +579,7 @@
   },
   "stats": {
     "total_problems": 15,
-    "total_reviews": 60,
+    "total_reviews": 61,
     "current_streak": 1,
     "longest_streak": 3,
     "last_review_date": "2026-11-10"

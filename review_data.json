@@ -346,17 +346,22 @@
       "path": "프로그래머스/2/42584. 주식가격",
       "first_solved": "2026-02-20",
       "sm2": {
-        "step": 1,
-        "interval": 3,
-        "last_reviewed": "2026-04-21",
-        "next_review": "2026-04-24",
-        "review_count": 1,
+        "step": 2,
+        "interval": 7,
+        "last_reviewed": "2026-11-10",
+        "next_review": "2026-11-17",
+        "review_count": 2,
         "graduated": false,
         "history": [
           {
             "date": "2026-04-21",
             "quality": 5,
             "interval_after": 3
+          },
+          {
+            "date": "2026-11-10",
+            "quality": 5,
+            "interval_after": 7
           }
         ]
       }
@@ -579,7 +584,7 @@
   },
   "stats": {
     "total_problems": 15,
-    "total_reviews": 61,
+    "total_reviews": 62,
     "current_streak": 1,
     "longest_streak": 3,
     "last_review_date": "2026-11-10"
